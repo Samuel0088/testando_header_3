@@ -1,7 +1,7 @@
 // src/components/Footer/Footer.jsx
 import React from 'react'
 import styles from './Footer.module.css' // Corrigido: importação do CSS Module
-import logoMobiliza from '../../assets/Imagens/Logo.png'
+import logoMobiliza from '../../assets/Imagens/logo.png'
 
 const Footer = () => {
   return (
