@@ -1,6 +1,6 @@
 import { useState } from "react";
 import style from "./Cabecalho.module.css";
-import logo from '../../../assets/imagens/logo.png';
+import logo from '../../assets/imagens/logo.png';
 
 const Cabecalho = () => {
   const [menuAtivo, setMenuAtivo] = useState(false);
