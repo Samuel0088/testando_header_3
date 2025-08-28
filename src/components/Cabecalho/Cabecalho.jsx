@@ -12,7 +12,7 @@ const Cabecalho = () => {
       <nav className={style.navBar}>
         <div className={style.logo}>
           <a href="../principal/index.html">
-            <img src={Logo} alt="" />
+            <img src={logo} alt="" />
           </a>
         </div>
 
