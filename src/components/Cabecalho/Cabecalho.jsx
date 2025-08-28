@@ -1,6 +1,6 @@
 import { useState } from "react";
 import style from "./Cabecalho.module.css";
-import logo from '../../assets/imagens/logo.png';
+import Logo from '../../../assets/Imagens/Logo.png';
 
 const Cabecalho = () => {
   const [menuAtivo, setMenuAtivo] = useState(false);
@@ -12,7 +12,7 @@ const Cabecalho = () => {
       <nav className={style.navBar}>
         <div className={style.logo}>
           <a href="../principal/index.html">
-            <img src={logo} alt="" />
+            <img src={Logo} alt="" />
           </a>
         </div>
 
